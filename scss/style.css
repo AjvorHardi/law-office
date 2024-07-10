@@ -7,6 +7,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a {
@@ -67,4 +69,62 @@ ul {
 .topBar ul a:hover {
   box-shadow: 0 0 10px #a0a0a0;
   background-color: #33a5d7;
+}
+
+.main-header {
+  background-image: linear-gradient(rgba(49, 119, 181, 0.7), rgba(49, 119, 181, 0.7)), url(../img/header.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+.main-header nav {
+  padding-top: 20px;
+}
+.main-header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.main-header nav ul a {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 40px;
+}
+.main-header hgroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+.main-header hgroup h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0 0 2px #080033;
+}
+.main-header hgroup p {
+  font-size: 1.2rem;
+}
+.main-header hgroup button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2;
+  cursor: pointer;
+  color: white;
+  transition: 0.4s ease;
+}
+.main-header hgroup button:hover {
+  background: white;
+  color: #3177b5;
 }/*# sourceMappingURL=style.css.map */

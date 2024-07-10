@@ -19,5 +19,21 @@
             <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
     </section>
+
+    <header class="main-header">
+        <nav class="container">
+            <ul>
+                <li><a href="index.php">home</a></li>
+                <li><a href="about.php">about</a></li>
+                <li><a href="blog.php">blog</a></li>
+                <li><a href="contact.php">contact</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h2>Experience - Trust - Results</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita illo ratione omnis quisquam quae adipisci magni! Expedita mollitia enim quas dolore adipisci perspiciatis neque.</p>
+            <button>View more</button>
+        </hgroup>
+    </header>
 </body>
 </html>
