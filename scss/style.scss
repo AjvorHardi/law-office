@@ -40,6 +40,15 @@ $padding: 100px 0;
     }
 }
 
+@mixin underline($color, $width) {
+    background-color: $color;
+    display: block;
+    height: 2px;
+    content: "";
+    margin: 0 0 20px 0;
+    width: $width;
+}
+
 
 * {
     margin: 0;
@@ -141,5 +150,24 @@ ul {
         button {
             @include btn();
         }
+    }
+}
+
+.contact {
+    padding: $padding;
+    @include flex(space-between, center);
+    article {
+        flex: 1;
+        h3 {
+            color: $primary;
+            font-size: 2rem;
+            &::after {
+                @include underline($primary, 50px);
+            }
+        }
+        p {
+            color: $secondary;
+        }
+        
     }
 }

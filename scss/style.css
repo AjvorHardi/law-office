@@ -127,4 +127,31 @@ ul {
 .main-header hgroup button:hover {
   background: white;
   color: #3177b5;
+}
+
+.contact {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.contact article {
+  flex: 1;
+}
+.contact article h3 {
+  color: #3177b5;
+  font-size: 2rem;
+}
+.contact article h3::after {
+  background-color: #3177b5;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  width: 50px;
+}
+.contact article p {
+  color: #33a5d7;
 }/*# sourceMappingURL=style.css.map */
