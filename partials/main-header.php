@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Law Office</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="https://kit.fontawesome.com/de0c10c4c2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="scss/style.css">
@@ -14,7 +15,8 @@
     <section class="topBar container">
         <a href="" class="logo"><span>office</span></a>
         <ul>
-            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><i class="fa fa-facebook-official"></i></li>
+            <li><a href=""><i class="fa fa-facebook-official"></i></a></li>
             <li><a href=""><i class="fab fa-twitter"></i></a></li>
             <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
