@@ -133,7 +133,7 @@ ul {
 
     hgroup {
         @include flex(center, center);
-        height: 90vh;
+        height: 70vh;
         text-align: center;
         width: 50%;
         margin: auto;
@@ -183,4 +183,35 @@ footer {
     text-align: center;
     color: white;
     padding: 20px;
+}
+
+
+.services {
+    @include flex(space-between, center);
+    margin-top: -100px;
+    article {
+        flex: 0 0 25%;
+        color: white;
+        padding: 50px;
+        text-align: center;
+        i {
+            font-size: 4rem;
+            color: white;
+        }
+        h3 {
+            font-size: 1.6rem;
+            margin: 20px 0;
+        }
+        button {
+            @include btn();
+            padding: 15px;
+            margin-top: 15px;
+        }
+    }
+    article:nth-child(odd) {
+        background-color: $primary;
+    }
+    article:nth-child(even) {
+        background-color: $secondary;
+    }
 }
